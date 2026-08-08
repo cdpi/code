@@ -1,2 +1,9 @@
 
+dist/
+node_modules/
+
 temp/
+temp2/
+temp3/
+
+*-lock.json
