@@ -1,0 +1,11 @@
+{
+"name":"zinal",
+"version":"0.0.1",
+"type":"module",
+"devDependencies":{"@types/node":"^26.2.0"},
+"dependencies":
+    {
+    "jimp":"^1.6.1",
+    "besso":"file:../browser/dist/"
+    }
+}
