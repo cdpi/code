@@ -15,6 +15,11 @@ function chunk<T>(array:Array<T>, size:number):Array<Array<T>>
 	return result;
 	}
 
+function sequence(count:number):Array<number>
+	{
+	return Array.from({length: count}, (value, key) => key);
+	}
+
 function shuffle<T>(array:Array<T>):Array<T>
 	{
 	for (let i = array.length - 1; i > 0; i--)
@@ -32,5 +37,6 @@ function shuffle<T>(array:Array<T>):Array<T>
 export
 	{
 	chunk,
+	sequence,
 	shuffle
 	};

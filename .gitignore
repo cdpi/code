@@ -2,8 +2,10 @@
 dist/
 node_modules/
 
+java/
+linux/
+php/
 temp/
-temp2/
 temp3/
 tests/
 

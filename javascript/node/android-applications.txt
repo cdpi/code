@@ -1,0 +1,12 @@
+res/
+├── drawable-anydpi-v24/   <-- Vos fichiers XML (icones vectorielles)
+├── drawable-nodpi/        <-- Vos fonds d'écran (si vous en ajoutez)
+├── values/                <-- Les fichiers de configuration (le "cerveau")
+└── xml/                   <-- Le mapping (quelle icône pour quelle app)
+
+Le dossier drawable-anydpi-v24
+
+C'est ici que vous placez vos fichiers XML convertis.
+Règle d'or du nommage : Uniquement des lettres minuscules (a-z), des chiffres (0-9) et des underscores (_).
+Interdit : Majuscules, espaces, tirets (-) ou caractères spéciaux.
+Exemple : ic_whatsapp_neon.xml (Bon) | WhatsApp Icon.xml (Erreur).
