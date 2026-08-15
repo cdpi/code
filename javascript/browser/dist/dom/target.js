@@ -1,0 +1,14 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+function getEventTargetElement(event) {
+    if (event.target) {
+        if (event.target instanceof HTMLElement) {
+            return event.target;
+        }
+        if (event.target instanceof SVGElement) {
+            return event.target;
+        }
+    }
+    return null;
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export { getEventTargetElement };

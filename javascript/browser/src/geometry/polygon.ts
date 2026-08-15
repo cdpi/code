@@ -39,7 +39,7 @@ class Polygon
 
 	public getRandomVertices(cx:number, cy:number, radius:number, minimum:number, maximum:number):Array<IPoint2D>
 		{
-		return this.getVertices(cx, cy, radius, getRandomRadiusModifier(maximum, maximum));
+		return this.getVertices(cx, cy, radius, getRandomRadiusModifier(minimum, maximum));
 		}
 	}
 
