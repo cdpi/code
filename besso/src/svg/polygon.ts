@@ -1,0 +1,28 @@
+
+import { IPoint2D } from "zinal/geometry/point.js";
+import { svgElement, pointsToString } from "./util.js";
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//polygon.isPointInFill(new DOMPoint(0, 0));
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function polygon(points:Array<IPoint2D>, fill:string = "none", stroke:string = "black"):SVGPolygonElement
+	{
+	const attributes:{[key:string]:string} =
+		{
+		points: pointsToString(points, " ", " "),
+		fill,
+		stroke
+		};
+
+	return svgElement<SVGPolygonElement>("polygon", attributes);
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+export
+	{
+	polygon
+	};

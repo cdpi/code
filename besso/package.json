@@ -1,0 +1,13 @@
+{
+"name":"besso",
+"version":"0.0.1",
+"type":"module",
+"dependencies":
+	{
+	"zinal":"file:../zinal/dist/"
+	},
+"devDependencies":
+	{
+	"@types/node":"^26.2.0"
+	}
+}

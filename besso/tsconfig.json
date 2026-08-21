@@ -1,0 +1,17 @@
+{
+"compilerOptions":
+	{
+	"target": "esnext",
+	"module": "esnext",
+	"paths":
+		{
+		"zinal/*": ["../zinal/dist/*"]
+		},
+	"rootDir": "./src",
+	"outDir": "./dist",
+	"lib": ["DOM", "ESNext"],
+	"strict": true,
+	"skipLibCheck": true,
+	"declaration": true
+	}
+}
