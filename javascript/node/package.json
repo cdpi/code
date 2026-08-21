@@ -1,1 +1,0 @@
-{"name":"zinal","version":"0.0.1","type":"module","devDependencies":{"@types/node":"^26.2.0"},"dependencies":{"besso":"file:../browser/dist/","csv-parse":"^7.0.2","jimp":"^1.6.1"}}
