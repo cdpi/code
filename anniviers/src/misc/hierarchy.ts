@@ -1,0 +1,21 @@
+
+//import { readStructure } from "./readStructure.js";
+//import { removeAccents } from "../util/string.js";
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+async function hierarchy(path:string):Promise<string[]>
+	{
+	let structure:string[] = await readStructure(path);
+
+	return structure.map((line:string) => removeAccents(line.toLowerCase()));
+	}
+*/
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+export
+	{
+	//hierarchy
+	};

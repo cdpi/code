@@ -1,0 +1,18 @@
+{
+"compilerOptions":
+	{
+	"target": "esnext",
+	"module": "nodenext",
+	"paths":
+		{
+		"besso/*": ["../besso/dist/*"],
+		"zinal/*": ["../zinal/dist/*"]
+		},
+	"rootDir": "./src",
+	"outDir": "./dist",
+	"lib": ["ESNext"],
+	"strict": true,
+	"skipLibCheck": true,
+	"declaration": true
+	}
+}

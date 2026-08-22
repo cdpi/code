@@ -1,0 +1,11 @@
+import { readTextFilesRecursively } from "./files-and-directories.js";
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+function concat(directory, separator = "\n\n") {
+    let contents = [];
+    readTextFilesRecursively(directory, true, (path, content) => {
+        contents.push(content);
+    });
+    return contents.join(separator);
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export { concat };

@@ -1,0 +1,16 @@
+{
+"name":"anniviers",
+"version":"0.0.1",
+"type":"module",
+"dependencies":
+	{
+	"besso":"file:../besso/dist/",
+	"zinal":"file:../zinal/dist/",
+	"csv-parse":"^7.0.2",
+	"jimp":"^1.6.1"
+	},
+"devDependencies":
+	{
+	"@types/node":"^26.2.0"
+	}
+}
