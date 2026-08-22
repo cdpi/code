@@ -1,0 +1,22 @@
+
+import { readFileSync } from "node:fs";
+
+import { type RedGreenBlue } from "zinal/image/color.js";
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+type WebColors = Record<string, RedGreenBlue>;
+
+function readWebColors(path:string):WebColors
+	{
+	return JSON.parse(readFileSync(path, "utf-8")) as WebColors;
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+export
+	{
+	type WebColors,
+
+	readWebColors
+	};
