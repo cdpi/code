@@ -2,12 +2,7 @@
 node_modules/
 
 home/
-
-java/
-linux/
-php/
 temp/
-temp3/
 tests/
 
 dev.ts

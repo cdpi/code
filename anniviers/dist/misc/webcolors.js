@@ -1,0 +1,6 @@
+import { readFileSync } from "node:fs";
+function readWebColors(path) {
+    return JSON.parse(readFileSync(path, "utf-8"));
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export { readWebColors };

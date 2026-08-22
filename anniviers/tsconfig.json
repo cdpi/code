@@ -13,6 +13,7 @@
 	"lib": ["ESNext"],
 	"strict": true,
 	"skipLibCheck": true,
-	"declaration": true
+	"declaration": true,
+	"experimentalDecorators": true
 	}
 }
